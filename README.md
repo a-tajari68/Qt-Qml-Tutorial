@@ -13,6 +13,7 @@ In September 2014, Qt activities were transferred to The Qt Company.
 ##### [Qt]
 ```
 Note 1 : For get help QML type like Rectangle,Select this and press f1
+Note 2 : For The placement point of each type of QML is calculated from the location of the parent placement point(x and y ) 
 ```
 
 ## QtQuick-QmlScene
