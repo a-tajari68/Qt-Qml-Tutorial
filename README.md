@@ -1,3 +1,16 @@
+
+## Qt-History
+##### [Qt]
+```
+Started in 1994 by Trolltech
+In January 2008, Trolltech was acquired by Nokia.
+In October 2011, Qt was opened to the community through qt-project.org.
+In August 2012, Qt was acquired by Digia.
+In September 2014, Qt activities were transferred to The Qt Company.
+```
+
+
+
 ## QtQuick-QmlScene
 ##### [Qt]
 ```
