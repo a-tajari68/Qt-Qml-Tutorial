@@ -12,7 +12,8 @@ Text
     height:302
     text: "Hello World"
 }
-after run command :
-qmlscene test.qml
+AFTER RUN COMMAND :
+    qmlscene test.qml
+Note : IF USE LINUX YOU CAN RUN APP WITH : ./test.qml
 
 ```
