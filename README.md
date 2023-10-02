@@ -9,7 +9,11 @@ In August 2012, Qt was acquired by Digia.
 In September 2014, Qt activities were transferred to The Qt Company.
 ```
 
-
+## Qt-Note
+##### [Qt]
+```
+Note 1 : For get help QML type like Rectangle,Select this and press f1
+```
 
 ## QtQuick-QmlScene
 ##### [Qt]
@@ -28,5 +32,39 @@ Text
 AFTER RUN COMMAND :
     qmlscene test.qml
 Note : IF USE LINUX YOU CAN RUN APP WITH : ./test.qml
+
+```
+
+## QtQuick-qmlproject
+##### [Qt]
+```
+    1- Create Directory
+    2- Create File With Extention .qmlproject And Write To File:
+        import QmlProject 1.0
+        Project {
+            mainFile: "one.qml"
+        
+            QmlFiles {
+                directory: "."
+            }
+        }
+    3- Create File With Extention .qml And Write To File:
+        import QtQuick 2.0
+        
+        Item {
+            width: 400; height: 200
+        
+            Rectangle {
+            x: 100; y: 50
+            height: 100
+            width: height * 2
+            color: "Lightblue"
+            }
+        }
+    4-Open Qt Creator And Open .qmlproject file And Run
+
+
+
+    
 
 ```
